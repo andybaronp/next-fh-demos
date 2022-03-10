@@ -1,16 +1,17 @@
 import Link from 'next/link'
 import MainLayout from '../../components/layout/MainLayout'
 
-export default function Contact() {
+export default function Pricing() {
   return (
     <MainLayout>
-      <h1>Contact</h1>
+      <h1>Princing</h1>
       <h1 className='title'>
         Ir a <Link href='/'>Home!</Link>
       </h1>
 
       <p className='description'>
-        Get started by editing <code className='code'>pages/contact.jsx</code>
+        Get started by editing{' '}
+        <code className='code'>pages/pricing/index.jsx</code>
       </p>
     </MainLayout>
   )
